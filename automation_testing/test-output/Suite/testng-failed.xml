@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="P" value="50"/>
+    <parameter name="A" value="10"/>
+    <parameter name="Q" value="200"/>
+    <parameter name="B" value="15"/>
+    <parameter name="R" value="5o"/>
+    <parameter name="C" value="20"/>
+    <parameter name="S" value="20"/>
+    <parameter name="D" value="25"/>
+    <parameter name="W" value="2"/>
+    <parameter name="X" value="8"/>
+    <parameter name="Y" value="75"/>
+    <parameter name="Z" value="2"/>
+    <classes>
+      <class name="testing.automation_testing.arithmetic">
+        <methods>
+          <include name="Division"/>
+        </methods>
+      </class> <!-- testing.automation_testing.arithmetic -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
