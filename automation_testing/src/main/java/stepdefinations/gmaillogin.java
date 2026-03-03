@@ -13,7 +13,7 @@ public class gmaillogin {
  public void login_step() {
 	System.out.println("Test steps: user performed all steps");
 }
-@Then("login should be sucessfull")
+@Then("gmail login should be sucessfull")
  public void login_button() {
 	System.out.println("Expected result:login successful");
 }

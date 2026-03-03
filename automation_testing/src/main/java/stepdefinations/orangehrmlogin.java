@@ -20,13 +20,13 @@ public class orangehrmlogin {
 		
 		System.out.println("Precondition: orangehrm website is launch");
 	}
-	@When("launch the website,enter valid email and password,click on login button")
+	@When("launch the website,enter valid email and password,click on orangehrm login button")
 	 public void login_step() {
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 		System.out.println("Test steps: user performed all steps");
 	}
-	@And("login should be successfull")
+	@And(" orangehrm login should be successfull")
 	 public void login_button() {
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
 

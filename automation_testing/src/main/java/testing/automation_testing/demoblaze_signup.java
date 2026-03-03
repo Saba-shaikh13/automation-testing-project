@@ -8,7 +8,7 @@ public class demoblaze_signup {
 		valid_signup();
 	}
 	static void valid_signup() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\SK Laptop Town\\sabacorejava\\automation_testing\\DriverResources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\SK Laptop Town\\git\\repository\\automation_testing\\DriverResources\\chromedriver.exe");
 		 System.out.println("1.configure");
 		 ChromeDriver driver=new ChromeDriver();
 		 System.out.println("initilize chromedriver");
